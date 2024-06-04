@@ -1,9 +1,9 @@
-import { RECIEVE_DATA, SAVE_ANSWER, SAVE_QUESTION } from '../actions/shared'
+import { RECIEVE_DATA, SAVE_ANSWER, SAVE_QUESTION } from '../actions/shared';
 
 export default function users(state = {}, action) {
   switch (action.type) {
     case RECIEVE_DATA:
-      return action.users
+      return action.users;
     case SAVE_ANSWER:
       return {
         ...state,
@@ -14,7 +14,7 @@ export default function users(state = {}, action) {
             [action.questionId]: action.answer,
           },
         },
-      }
+      };
     case SAVE_QUESTION:
       return {
         ...state,
@@ -25,8 +25,8 @@ export default function users(state = {}, action) {
             action.question.id,
           ],
         },
-      }
+      };
     default:
-      return state
+      return state;
   }
 }

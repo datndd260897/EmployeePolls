@@ -8,4 +8,4 @@ module.exports = {
     '\\.(css|less)$': '<rootDir>/styleMock.js',
   },
   setupFilesAfterEnv: ['<rootDir>/jest-setup.ts']
-}
+};
