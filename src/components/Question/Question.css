@@ -1,45 +1,60 @@
+/* Question container styles */
 .question {
   display: flex;
   align-items: center;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #515151;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
   max-width: 100%;
+  margin-bottom: 15px;
 }
 
+.question:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.02);
+}
+
+/* Avatar styles */
 .avatar {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
+/* Text container styles */
 .text-container {
   display: flex;
   flex-direction: column;
 }
 
+/* Line 1 styles */
 .line1 {
-  font-size: 1em;
+  font-size: 1.1em;
   margin-bottom: 5px;
-  color: #ffffff;
+  color: #333;
 }
 
 .line1 span {
   color: #4fb6d4;
-  font-weight: 500;
+  font-weight: 600;
 }
 
+/* Line 2 styles */
 .line2 {
-  font-size: 0.8em;
-  color: #959595;
+  font-size: 0.9em;
+  color: #666;
 }
 
 .line2 .author-name {
-  color: #ffffff;
+  color: #333;
+  font-weight: 600;
 }
 
+/* Question link styles */
 .question-link {
   display: block;
   text-decoration: none;

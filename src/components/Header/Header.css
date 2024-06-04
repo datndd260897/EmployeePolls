@@ -1,50 +1,65 @@
+/* Header container styles */
 .header-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #1e272e;
   color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* User section styles */
 .user-section {
   display: flex;
   align-items: center;
 }
 
+/* User avatar styles */
 .user-avatar {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
+/* Username styles */
 .username {
   margin-left: 10px;
   margin-right: 20px;
   font-size: 1.1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Button styles */
 .logout-button {
-  background-color: #f44336;
+  background-color: #ff4757;
   color: white;
   border: none;
   padding: 8px 16px;
   font-size: 1em;
   cursor: pointer;
   border-radius: 5px;
-}
-
-.login-button {
-  background-color: #69f436;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s;
 }
 
 .logout-button:hover {
-  background-color: #d32f2f;
+  background-color: #e84118;
+}
+
+.login-button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #1b74e4;
 }

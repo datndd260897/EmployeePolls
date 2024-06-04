@@ -1,14 +1,19 @@
+/* Updated styles for a modern look */
 .login-container {
   max-width: 400px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 30px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .login-container h2 {
   margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form-group {
@@ -18,29 +23,37 @@
 .form-group label {
   display: block;
   margin-bottom: 5px;
+  color: #34495e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form-group input {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .error {
   color: red;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 button {
   width: 100%;
-  padding: 10px;
-  background-color: #61dafb;
+  padding: 12px;
+  background-color: #e74c3c;
   border: none;
   color: white;
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button:hover {
-  background-color: #21a1f1;
+  background-color: #c0392b;
 }

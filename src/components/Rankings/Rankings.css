@@ -1,31 +1,50 @@
+/* Leaderboard container styles */
 .leaderboard {
   display: block;
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  background-color: #f0f0f0;
-  padding: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Title styles */
 .title {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #333;
 }
 
+/* Leaderboard table styles */
 .leaderboard-table {
   border-collapse: collapse;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
 }
 
+/* Table header styles */
 .leaderboard-table th,
 .leaderboard-table td {
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #ddd;
 }
 
 .leaderboard-table th {
-  background-color: #646464;
+  background-color: #2c3e50;
   color: white;
+  font-weight: 600;
+}
+
+/* Table body styles */
+.leaderboard-table td {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background-color: #f2f2f2;
 }

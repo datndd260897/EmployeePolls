@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Question.css';
 
 const Question = ({ user, question }) => {
   return (
