@@ -1,0 +1,17 @@
+.main-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 250px);
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}

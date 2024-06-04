@@ -1,0 +1,28 @@
+.content-container {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.toggle-switch-container {
+  align-self: flex-end;
+  max-width: fit-content;
+}
+
+.list-container {
+  display: block;
+  margin-top: 20px;
+}
+
+.list-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-container li {
+  padding: 10px 0;
+  font-size: 1.2em;
+}

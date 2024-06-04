@@ -1,0 +1,40 @@
+.navigation-bar {
+  width: 250px;
+  background-color: #444;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-title {
+  font-size: 1.5em;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-bar li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #555;
+}
+
+.navigation-bar li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 1.1em;
+}
+
+.navigation-bar li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
